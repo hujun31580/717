@@ -1,0 +1,39 @@
+@mixin num($w:100%, $h:100%) {
+    width: $w;
+    height: $h;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.header {
+    @include num(100%, .88rem)
+}
+
+.main {
+    flex: 1;
+    overflow: auto;
+}
+
+.footer {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    .active {
+        color: red;
+    }
+    a {
+        color: #6F6D6E;
+    }
+}

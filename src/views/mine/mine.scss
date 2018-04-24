@@ -1,0 +1,32 @@
+.user {
+    width: 100%;
+    background: #f50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: #fff;
+        text-align: center;
+        line-height: .8rem;
+    }
+    img {
+        border-radius: 50%;
+        margin: .2rem 0;
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+.mine {
+    ul {
+        width: 100%;
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 .3rem;
+            line-height: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+    }
+}

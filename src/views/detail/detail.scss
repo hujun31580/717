@@ -1,0 +1,29 @@
+.header {
+    b {
+        margin: 0 .4rem;
+        font-weight: 800;
+        font-size: .36rem;
+    }
+    .home {
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        display: inline-block;
+        width: .6rem;
+        height: .6rem;
+        text-align: center;
+        line-height: .6rem;
+        font-size: .4rem;
+    }
+}
+
+.footer {
+    button {
+        height: 100%;
+        background: #FE8282;
+        color: #fff;
+        border: none;
+    }
+    .btn {
+        background: #FB4142;
+    }
+}

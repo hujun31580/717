@@ -1,0 +1,70 @@
+%flex{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin wh($w:100%,$h:100%){
+  width:$w;
+  height:$h;
+}
+.cargoods{
+  padding:.2rem;
+  @extend %flex;
+  dt{
+    @include wh(3rem,2.4rem);
+    padding-left:.6rem;
+    position: relative;
+    i{
+      position:absolute;
+      left:0;
+      top:1rem;
+      display:inline-block;
+      @include wh(.45rem,.45rem);
+      border:1px solid #CACACA;
+      border-radius:50%;
+      text-align: center;
+      line-height: .45rem;
+      font-size:.38rem;
+
+    }
+    .icon-duihao{
+      background: #FB4240;
+      color:#fff;
+    }
+    img{
+      @include wh();
+    }
+  }
+  dd{
+    flex:1;
+    height:2.4rem;
+    padding:.1rem .2rem 0;
+    p{
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+      height:.4rem;
+      -webkit-line-clamp:1;
+      text-overflow:ellipsis;
+      word-break:break-all
+    }
+    >div{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top:.6rem;
+      b{
+        color:#E84040;
+        font-weight:800;
+      }
+      span{
+        border:1px solid #ccc;
+        padding:.08rem .16rem;
+      }
+      span:nth-child(2){
+        border-left:none;
+        border-right:none;
+      }
+    }
+  }
+}

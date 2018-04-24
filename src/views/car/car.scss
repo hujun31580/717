@@ -1,0 +1,51 @@
+.car-header{
+  background: #FAFAFA;
+}
+.car-main{
+  overflow: auto;
+  padding-bottom:1rem;
+  flex:1;
+}
+.car-footer{
+  padding-left:.2rem;
+  position: fixed;
+  bottom:1rem;
+  left:0;
+  height:.9rem;
+  width:100%;
+  line-height: .9rem;
+  background: #fff;
+  border-top:1px solid #eee;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  i{
+    display:inline-block;
+   width:.45rem;
+   height:.45rem;
+    border:1px solid #CACACA;
+    border-radius:50%;
+    text-align: center;
+    line-height: .45rem;
+    font-size:.38rem;
+
+  }
+  .icon-duihao{
+    background: #FB4240;
+    color:#fff;
+  }
+  .del{
+    height: 100%;
+    width:30%;
+    color: #fff;
+    background: #FB4142;
+    text-align: center;
+  }
+  span{
+    b{
+      font-size:.32rem;
+      color:#FB4142;
+      font-weight:800
+    }
+  }
+}
